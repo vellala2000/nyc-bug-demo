@@ -1,0 +1,30 @@
+{
+	"compilerOptions": {
+	  "target": "es6",
+	  "module": "commonjs",
+	  "outDir": "dist",
+	  "sourceMap": true,
+	  "esModuleInterop": false,
+	  "noImplicitAny": false,
+	  "moduleResolution": "node",
+	  "resolveJsonModule": true,
+	  "baseUrl": ".",
+	  "strictNullChecks": false,
+	  "paths": {
+		"*": ["./node_modules/*", "src/types/*"]
+		},
+	  "typeRoots": ["./node_modules/@types", "./typings"],
+	  "types": ["node", "mocha"]
+	},
+	"rules": {
+	  "indent": [true, "spaces", 4]
+	  },
+	"include": [
+	  "src/**/*.ts",
+	  "test/**/*.ts",
+	  "package.json"
+	],
+	"exclude": [
+	  "node_modules"
+	]
+  }

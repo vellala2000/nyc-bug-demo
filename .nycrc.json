@@ -1,0 +1,31 @@
+{
+    "cache": false,
+    "check-coverage": true,
+    "branches": 90,
+    "functions": 90,
+    "lines": 90,
+    "statements": 90,
+    "extension": [
+        ".ts",
+        ".tsx",
+        ".js"
+    ],
+    "include": [
+        "**/*.js",
+        "**/*.ts"
+    ],
+    "exclude": [
+        "coverage/**",
+        "node_modules/**",
+        "test/**"
+    ],
+    "sourceMap": true,
+    "reporter": [
+        "html",
+        "text",
+        "text-summary",
+        "lcov"
+    ],
+    "all": true,
+    "instrument": true
+}
